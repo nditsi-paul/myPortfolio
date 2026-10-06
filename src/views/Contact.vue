@@ -1,12 +1,11 @@
 <template>
-  <form action=""></form>
+  <section>
+    this is the contact page
+  </section>
 </template>
 <script setup>
   import {ref} from 'vue'
-  import Header from './Header.vue'
-  import Footer from './Footer.vue'
-
-  
+ 
 </script>
 
 <style scoped></style>

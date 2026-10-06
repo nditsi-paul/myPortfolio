@@ -1,6 +1,6 @@
 <template>
   <Header/>
-  <main>
+  <main class="flex-1">
     <router-view :key="$route.fullPath"/>
   </main>
   <Footer/>

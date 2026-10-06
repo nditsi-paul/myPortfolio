@@ -1,7 +1,9 @@
-<template></template>
+<template>
+  <section>
+    this is the skill page
+  </section>
+</template>
 <script setup>
-  import Header from './Header.vue'
-  import Footer from './Footer.vue'
 </script>
 
 <style scoped></style>
