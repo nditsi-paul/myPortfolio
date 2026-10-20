@@ -9,12 +9,24 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 /* Import specific icons */
 import { 
-  faUser, 
-  faHouse 
+  faEnvelope,
+  faBars,
+  faXmark,
+  faDownload,
+  faLocationDot
 } from '@fortawesome/free-solid-svg-icons';
 
+import { 
+  faFacebook,
+  faGithub, 
+  faInstagram, 
+  faLinkedin, 
+  faWhatsapp
+} from '@fortawesome/free-brands-svg-icons';
+
+
 /* Add icons to the library */
-library.add(faUser, faHouse);
+library.add(faEnvelope, faBars, faXmark, faFacebook, faInstagram, faLinkedin, faGithub, faWhatsapp, faDownload, faLocationDot);
 
 const app = createApp(App);
 
@@ -28,6 +40,6 @@ app.component('fa-icon', FontAwesomeIcon);
  // <fa-icon icon="fa-solid fa-house" />
  // <fa-icon :icon="['fas', 'user']" />
  // </template> 
- 
+
 app.use(router);
 app.mount('#app');

@@ -1,6 +1,18 @@
 <template>
-  <footer class="bg-blue-500 text-white">
-    <div class="text-center">
+  <footer class="bg-my-surf text-white border-t border-t-my-elec">
+    <div class="py-2 px-4 grid md:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 gap-1">
+      <div>yo</div>
+      <div>yo</div>
+      <div>
+        <fa-icon icon="fa-brands fa-whatsapp"/>
+        <fa-icon icon="fa-brands fa-facebook"/>
+        <fa-icon icon="fa-brands fa-instagram"/>
+        <fa-icon icon="fa-brands fa-linkedin"/>
+        <fa-icon icon="fa-brands fa-github"/>
+      </div>
+    </div>
+    <div class="text-center px-1.5">
+      <hr>
       <small>&copy; 2026 Nditsi Paul Penyia - All rights Reserved</small>
     </div>
   </footer>

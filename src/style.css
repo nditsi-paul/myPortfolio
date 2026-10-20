@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@theme{
+  --color-my-black: #010a19; /* bg - body */
+  --color-my-dark: #0A0F1C; /* bg-cards */
+  --color-my-surf: #000c1f; /* bg-nav */
+  --color-my-border: #16243A; /* borders/divers */
+
+  --color-my-blue: #0267F6; /* button */
+  --color-my-bright: #00BFFF; /* hover:icons */
+  --color-my-elec: #0084FF; /* glow-logo/important */
+
+  --color-my-white: #F5F7FA; /* heading/important content */
+  --color-my-text: #CBD5E1; /* p-desc */
+  --color-my-muted: #94A3B8; /* dates etc */
+  --color-my-dis: #64748B; /* less important */
+}
