@@ -3,12 +3,27 @@
     <div class="py-2 px-4 grid md:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 gap-1">
       <div>yo</div>
       <div>yo</div>
-      <div>
-        <fa-icon icon="fa-brands fa-whatsapp"/>
-        <fa-icon icon="fa-brands fa-facebook"/>
-        <fa-icon icon="fa-brands fa-instagram"/>
-        <fa-icon icon="fa-brands fa-linkedin"/>
-        <fa-icon icon="fa-brands fa-github"/>
+      <div class="grid grid-cols-2 gap-1 max-sm:text-center">
+        <!-- <a href="http://" target="_blank">
+          <fa-icon icon="fa-brands fa-whatsapp"/>
+           WhatsApp
+        </a> -->
+        <a href="http://" target="_blank">
+          <fa-icon icon="fa-brands fa-facebook"/>
+           Facebook
+        </a>
+        <a href="http://" target="_blank">
+          <fa-icon icon="fa-brands fa-instagram"/>
+           Instagram
+        </a>
+        <a href="http://" target="_blank">
+          <fa-icon icon="fa-brands fa-linkedin"/>
+           LinkedIn
+        </a>
+        <a href="http://" target="_blank">
+          <fa-icon icon="fa-brands fa-github"/>
+           GitHub
+        </a>
       </div>
     </div>
     <div class="text-center px-1.5">
@@ -21,5 +36,8 @@
 <script setup>
 </script>
 
-<style>
+<style scoped>
+footer{
+  font-weight: bold;
+}
 </style>

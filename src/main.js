@@ -13,7 +13,8 @@ import {
   faBars,
   faXmark,
   faDownload,
-  faLocationDot
+  faLocationDot,
+  faPhone
 } from '@fortawesome/free-solid-svg-icons';
 
 import { 
@@ -26,7 +27,7 @@ import {
 
 
 /* Add icons to the library */
-library.add(faEnvelope, faBars, faXmark, faFacebook, faInstagram, faLinkedin, faGithub, faWhatsapp, faDownload, faLocationDot);
+library.add(faEnvelope, faBars, faXmark, faFacebook, faInstagram, faLinkedin, faGithub, faWhatsapp, faDownload, faLocationDot, faPhone);
 
 const app = createApp(App);
 
