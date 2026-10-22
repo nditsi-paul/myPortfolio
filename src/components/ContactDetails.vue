@@ -31,15 +31,15 @@
         </span>
       </div>
       <div class="flex gap-1">
-        <a href="http://" target="_blank">
+        <a href="http://" target="_blank" rel="noopener noreferrer">
           <fa-icon icon="fa-brands fa-github"/>
            GitHub
         </a>
-        <a href="http://" target="_blank">
+        <a href="http://" target="_blank" rel="noopener noreferrer">
           <fa-icon icon="fa-brands fa-linkedin"/>
            LinkedIn
         </a>
-        <a href="http://" target="_blank">
+        <a href="http://" target="_blank" rel="noopener noreferrer">
           <fa-icon icon="fa-brands fa-facebook"/>
            Facebook
         </a>

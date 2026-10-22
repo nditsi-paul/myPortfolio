@@ -12,7 +12,6 @@
   </div>
 </template>
 <script setup>
-  import {ref} from 'vue'
   import ContactDetails from '../components/ContactDetails.vue';
   import ContactForm from '../components/ContactForm.vue';
  

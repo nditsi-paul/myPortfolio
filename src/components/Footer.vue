@@ -4,23 +4,23 @@
       <div>yo</div>
       <div>yo</div>
       <div class="grid grid-cols-2 gap-1 max-sm:text-center">
-        <!-- <a href="http://" target="_blank">
+        <!-- <a href="http://" target="_blank" rel="noopener noreferrer">
           <fa-icon icon="fa-brands fa-whatsapp"/>
            WhatsApp
         </a> -->
-        <a href="http://" target="_blank">
+        <a href="http://" target="_blank" rel="noopener noreferrer">
           <fa-icon icon="fa-brands fa-facebook"/>
            Facebook
         </a>
-        <a href="http://" target="_blank">
+        <a href="http://" target="_blank" rel="noopener noreferrer">
           <fa-icon icon="fa-brands fa-instagram"/>
            Instagram
         </a>
-        <a href="http://" target="_blank">
+        <a href="http://" target="_blank" rel="noopener noreferrer">
           <fa-icon icon="fa-brands fa-linkedin"/>
            LinkedIn
         </a>
-        <a href="http://" target="_blank">
+        <a href="http://" target="_blank" rel="noopener noreferrer">
           <fa-icon icon="fa-brands fa-github"/>
            GitHub
         </a>
