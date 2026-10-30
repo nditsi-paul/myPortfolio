@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div>yo</div>
 </template>
 <script setup></script>
 <style scoped></style>

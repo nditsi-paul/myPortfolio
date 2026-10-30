@@ -2,10 +2,14 @@
   <section>
     <AboutMe/>
   </section>
-  <section>
-    <MyJourney/>
+  <section class="grid grid-cols-2 max-sm:grid-cols-1">
+    <div>
+      <MyJourney/>
+    </div>
     
-    <Education/>
+    <div>
+      <Education/>
+    </div>
   </section>
 </template>
 <script setup>
