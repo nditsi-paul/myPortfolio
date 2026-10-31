@@ -24,7 +24,7 @@
       <div class="p-1">
         <div class="text-center"><h3 class="text-my-bright">Follow Me</h3></div>
         <div class="grid grid-cols-2 gap-1 text-center">
-          <div v-for="medium in media">
+          <div v-for="medium in media" :key="medium.link">
           <a :href="medium.link" target="_blank" rel="noopener noreferrer">
             <fa-icon :icon="medium.icon"/>
              {{medium.name}}
@@ -51,10 +51,10 @@ const links = ref([
  ])
 
 const media = [
-  {name:"Facebook", link:"https://", icon: "fa-brands fa-facebook"},
-  {name:"Instagram", link:"https://", icon: "fa-brands fa-instagram"},
-  {name:"LinkedIn", link:"https://", icon: "fa-brands fa-linkedin"},
-  {name:"GitHub", link:"https://", icon: "fa-brands fa-github"},
+  {name:"Facebook", link:"https://facebook.com", icon: "fa-brands fa-facebook"},
+  {name:"Instagram", link:"https://instagram.com", icon: "fa-brands fa-instagram"},
+  {name:"LinkedIn", link:"https://linkedin.com", icon: "fa-brands fa-linkedin"},
+  {name:"GitHub", link:"https://github.com", icon: "fa-brands fa-github"},
 ]
 </script>
 
